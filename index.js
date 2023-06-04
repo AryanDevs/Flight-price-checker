@@ -27,5 +27,5 @@ app.use("/aegis/v1", test);
 app.use("/aegis/v1", user);
 
 app.listen(port, () => {
-  console.log("Server up and running");
+  console.log("Server up and running", port);
 });
